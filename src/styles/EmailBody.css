@@ -1,0 +1,40 @@
+.email-body {
+  color: #636363;
+}
+
+.email-body-header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  
+  .email-body-header {
+    margin-left: 0;
+  }
+  
+  .email-body-subject {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #636363;
+    margin-bottom: 10px;
+  }
+  
+  
+  .favorite-btn {
+    background-color: #e54065;
+    border: 1px solid #cfd2dc;
+    padding: 8px 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #ff0000;
+  }
+  
+  .email-body-items {
+    display: flex;
+    flex-direction: column;
+  }
